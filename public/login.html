@@ -1,0 +1,34 @@
+<!doctype html>  
+<html lang="fr">  
+    <head>
+		<title>MonServeurWeb | Connexion</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+		<link rel="stylesheet" href="/css/login.css">
+    </head>
+    <body>
+        <h2>MonServeurWeb</h2>
+		<div class="container">
+			<div class="card card-container">
+				<img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+				<p id="profile-name" class="profile-name-card"></p>
+				<form class="form-signin">
+					<span id="reauth-email" class="reauth-email"></span>
+					<input type="text" id="inputUsername" class="form-control" placeholder="Identifiant" required autofocus>
+					<input type="password" id="inputPassword" class="form-control" placeholder="Motdepass" required>
+					<div id="remember" class="checkbox">
+						<label>
+							<input type="checkbox" value="remember-me"> Enregistrer identifiant
+						</label>
+					</div>
+					<button id="buttonConnection" class="btn btn-lg btn-primary btn-block btn-signin">Connexion</button>
+				</form><!-- /form -->
+			</div><!-- /card-container -->
+		</div><!-- /container -->
+		
+		
+		<script src="/jquery/dist/jquery.js"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<script src="/js/login.js"></script>
+    </body>
+</html>
